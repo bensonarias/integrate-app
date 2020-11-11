@@ -3,32 +3,32 @@
 
 // Counting Numbers
 const math1 = [{
-    q: 'Fill in the blank - 11, 12, __, 14, 15',
+    q: 'Fill in the blank <br> 11, 12, ___, 14, 15',
     options:['13','23','10','33'],
     answer:0
 },
 {
-    q: 'What number is this? 50',
+    q: 'What number is this? <br> 50',
     options:['fifty','fifteen','thirty','sixty'],
     answer:0
 },
 {
-    q: 'This is skip counting by ______? 3,6,9,12,15',
+    q: 'This is skip counting by ______? <br> 3, 6, 9, 12, 15',
     options:['3','2','4','5'],
     answer:0
 },
 {
-    q: 'Fill in the blanks. Skip Counting by (10) <br> 10, __, 30, __, 50',
+    q: 'Fill in the blanks. Skip Counting by (10) <br> 10, ___, 30, ___, 50',
     options:['20 and 30','20 and 60','20 and 10','20 and 40	'],
     answer:3
 },
 {
-    q: 'Fill in the blanks 34 _ 43',
+    q: 'Fill in the blank 34 __ 43',
     options:['<','>','='],
     answer:0
 },
 {
-    q: 'Fill in the blanks 10 _ 10',
+    q: 'Fill in the blank 10 __ 10',
     options:['>','<','='],
     answer:2
 },
@@ -48,7 +48,7 @@ const math1 = [{
     answer:2
 },
 {
-    q: 'Fill in the blanks 1st, __, 3rd, 4th, 5th',
+    q: 'Fill in the blank 1st, ___, 3rd, 4th, 5th',
     options:['2st','2','2nd','2rd'],
     answer:2
 }
@@ -368,5 +368,54 @@ const math7 = [{
 }];
 
 // Measurement
-const math8 = [];
+const math8 = [{
+    q: 'What is lighter? <br> <img src="/Math Page/img-math/measurement/1.png" alt="measure"></img>',
+    options: ['Fruits','Junkfoods','Both','None of them'],
+    answer: 1
+},
+{
+    q: 'Who is the heaviest Monkey? <br> <img src="/Math Page/img-math/measurement/2.png" alt="measure"></img>',
+    options: ['The monkey with Banana','Both Monkeys','The monkey with many banana','None of them'],
+    answer: 2
+},
+{
+    q: 'What is lighter? <br> <img src="/Math Page/img-math/measurement/3.png" alt="measure"></img>',
+    options: ['The boy carrying with bag','Both the boy and the girl','The girl carrying a box','None of them'],
+    answer: 2
+},
+{
+    q: 'What is the heavier? <br> <img src="/Math Page/img-math/measurement/4.png" alt="measure"></img>',
+    options: ['Elephant','Lion cub','Both of them','None of them'],
+    answer: 0
+},
+{
+    q: 'What is lighter? <br> <img src="/Math Page/img-math/measurement/5.png" alt="measure"></img>',
+    options: ['The girl with one ball','The girl with two ball','Both','None of them'],
+    answer: 0
+},
+{
+    q: 'Which pencil is longer? <br> <img src="/Math Page/img-math/measurement/6.png" alt="measure"></img>',
+    options: ['The pencil on the right ','The pencil on the left','Both of them','None of them'],
+    answer: 0
+},
+{
+    q: 'Which pencil is shorter? <br> <img src="/Math Page/img-math/measurement/7.png" alt="measure"></img>',
+    options: ['The pencil on the right ','The pencil on the left','Both of them','None of them'],
+    answer: 0
+},
+{
+    q: 'Which have the most capacity? <br> <img src="/Math Page/img-math/measurement/8.png" alt="measure"></img>',
+    options: ['The glass','The bottle','Both','None of them'],
+    answer: 1
+},
+{
+    q: 'Which have the less capacity? <br> <img src="/Math Page/img-math/measurement/9.png" alt="measure"></img>',
+    options: ['The glass','The bottle','Both','None of them'],
+    answer: 0
+},
+{
+    q: 'Who is lighter? <br> <img src="/Math Page/img-math/measurement/10.png" alt="measure"></img>',
+    options: ['The man on the right','The man on the left','Both','None of them'],
+    answer: 0
+}];
 

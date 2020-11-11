@@ -18,7 +18,7 @@ if (sessionStorage.getItem("ID") === "1") {
     }
 
 } else if (sessionStorage.getItem("ID") === "3") {
-    var titles = ["Visual Represetation", "Minuend, Subtrahend, Difference, Basic Computation", "Vertical Subtraction", "Subtraction without regrouping", "Subtraction with regrouping", "Word Problems"];
+    var titles = ["Subracting using Objects", "Subtracting Sentence", "Subtracting Minuend and Subtrahend", "Subtraction with regrouping", "Subtraction without regrouping"];
     for (var temp = 1; temp <= titles.length; temp++) {
         Populate(temp, titles[temp - 1]);
     }

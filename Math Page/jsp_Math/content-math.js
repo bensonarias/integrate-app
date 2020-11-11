@@ -67,50 +67,31 @@ else if (sessionStorage.getItem("ID") == 2 && sessionStorage.getItem("lessonID")
 
 
 //3 Subtraction
-//for testing only
-else if (sessionStorage.getItem("ID") == 2 && sessionStorage.getItem("lessonID") == 1) {
-    url = 'https://www.youtube.com/embed/8_s1CRs1rJk?controls=0';
-    youtubeVid(url);
-}
-
-else if (sessionStorage.getItem("ID") == 2 && sessionStorage.getItem("lessonID") == 2) {
-    url = "https://www.youtube.com/embed/FomVrsf-PJ0?controls=0";
-    youtubeVid(url);
-}
-
-else if (sessionStorage.getItem("ID") == 2 && sessionStorage.getItem("lessonID") == 3) {
-    url = "https://www.youtube.com/embed/0Wrv_ZviMEc?controls=0";
-    youtubeVid(url);
-}
-
-else if (sessionStorage.getItem("ID") == 2 && sessionStorage.getItem("lessonID") == 5) {
-    url = "https://www.youtube.com/embed/oes1PE58WQE?controls=0";
-    youtubeVid(url);
-    createAssessmentBtn();
-}
-//for testing only
-
 else if (sessionStorage.getItem("ID") == 3 && sessionStorage.getItem("lessonID") == 1) {
-
+    url = 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EdBivq6FiQFAlFjdxRWowDcBKk8bR42cQZAAq7VTwiXCCA?e=YsNvBP';
+    powerpoint(url);
 }
 
 else if (sessionStorage.getItem("ID") == 3 && sessionStorage.getItem("lessonID") == 2) {
-
+    url = 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EaLoM57UIkBHm9554tAaKKgBaoS734h0hOzcTPwfO1RKeg?e=mJKw3u';
+    powerpoint(url);
 }
 
 else if (sessionStorage.getItem("ID") == 3 && sessionStorage.getItem("lessonID") == 3) {
-
+    url = 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EQBgcQB_ZBFJo0VfbPKFw7YBDYDeLFggmN4XIVsqCAVNoQ?e=i8sQTX';
+    powerpoint(url);
 }
 
 else if (sessionStorage.getItem("ID") == 3 && sessionStorage.getItem("lessonID") == 4) {
-
+    url = 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EUCxl1wwlFZCtb_MtkFyhpABZ7kkToNpHaEMTEQmT5BlHw?e=3K9ehj';
+    powerpoint(url);
 }
 
 else if (sessionStorage.getItem("ID") == 3 && sessionStorage.getItem("lessonID") == 5) {
-
+    url = 'https://nationalueduph-my.sharepoint.com/:p:/g/personal/ariasru_students_national-u_edu_ph/EZo2OK-1KFhAtcvtnfHMMQABWD3dDOUsUmu14pXsaQYq9g?e=AiRJYs';
+    powerpoint(url);
+    createAssessmentBtn();
 }
-
-
 
 //4 Fraction
 else if (sessionStorage.getItem("ID") == 4 && sessionStorage.getItem("lessonID") == 1) {
