@@ -12,7 +12,7 @@ if (sessionStorage.getItem("ID") === "1") {
     }
 
 } else if (sessionStorage.getItem("ID") === "2") {
-    var titles = ["Intro to Addition", "Visual Represetation", "Addends, Sum, and Basic Computation", "Vertical Addition", "Addition without regrouping", "Addition with regrouping", "Word Problems"];
+    var titles = ["Introduction to Addition", "Visual Represetation", "Addends, Sum, and Basic Computation", "Vertical Addition", "Addition without regrouping", "Addition with regrouping", "Word Problems"];
     for (var temp = 1; temp <= titles.length; temp++) {
         Populate(temp, titles[temp - 1]);
     }
